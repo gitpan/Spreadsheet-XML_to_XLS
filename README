@@ -1,5 +1,5 @@
 NAME
-    Spreadsheet::Spreadsheet::XML_to_XLS - Create Excel document from XML file
+    Spreadsheet::XML_to_XLS - Create Excel document from XML file
 
 SYNOPSIS
       use strict;

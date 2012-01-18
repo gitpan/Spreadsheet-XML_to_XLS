@@ -2,7 +2,7 @@ package Spreadsheet::XML_to_XLS;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use XML::DOM;
 use Spreadsheet::WriteExcel;
