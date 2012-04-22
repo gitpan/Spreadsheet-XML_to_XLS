@@ -394,7 +394,7 @@ sub write_excel {
         foreach my $data (@{$chart->{'data'}}) {
             next unless exists $data->{'values'};
             $data->{'values'} = &check_if_named_set($data->{'values'}, $wsheet);
-            $data->{'categories'} = &check_if_named_set($data->{'categories'}, $wsheet);
+            $data->{'categories'} = &check_if_named_set($data->{'categories'}, $wsheet) if $data->{'categories'};
             $ch->add_series(%$data);
         }
         $ch->set_title(%{$chart->{'title'}}) if exists $chart->{'title'};

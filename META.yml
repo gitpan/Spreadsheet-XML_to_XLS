@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Spreadsheet-XML_to_XLS
-version:            0.02
+version:            0.03
 abstract:           ~
 author:
     - Radik Usmanov (radik.usmanov@ubs.com, rusmanov@luxoft.com)

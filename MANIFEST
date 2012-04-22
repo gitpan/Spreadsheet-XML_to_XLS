@@ -2,7 +2,6 @@ MANIFEST
 Makefile.PL
 lib/Spreadsheet/XML_to_XLS.pm
 META.yml
-META.json
 README
 doc/index.html
 doc/images/introduction.png
